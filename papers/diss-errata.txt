@@ -1,0 +1,3 @@
+pg 74, ln 2: FIFO should be LIFO
+pg 83, last line: "line 19" should be "line 18"
+

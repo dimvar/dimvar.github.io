@@ -1,0 +1,22 @@
+@inproceedings{conf/coord/08/vardoulakis/orc,
+  author    = {Dimitrios Vardoulakis and
+               Mitchell Wand},
+  title     = {A Compositional Trace Semantics for Orc},
+  booktitle = {COORDINATION},
+  year      = {2008},
+  pages     = {331-346},
+  crossref  = {proceed/coord/08}
+}
+
+@proceedings{proceed/coord/08,
+  editor    = {Doug Lea and
+               Gianluigi Zavattaro},
+  title     = {Coordination Models and Languages, 10th International Conference,
+               COORDINATION 2008, Oslo, Norway, June 4-6, 2008. Proceedings},
+  booktitle = {COORDINATION},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5052},
+  year      = {2008},
+  isbn      = {978-3-540-68264-6}
+}

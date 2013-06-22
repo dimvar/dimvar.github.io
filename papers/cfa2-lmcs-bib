@@ -1,0 +1,10 @@
+@article{vardoulakis-lmcs11,
+  author    = {Dimitrios Vardoulakis and Olin Shivers},
+  title     = {{CFA2: a Context-Free Approach to Control-Flow Analysis}},
+  journal   = {Logical Methods in Computer Science},
+  volume    = {7},
+  number    = {2:3},
+  year      = {2011},
+  month     = {May},
+  pages     = {1--39}
+}

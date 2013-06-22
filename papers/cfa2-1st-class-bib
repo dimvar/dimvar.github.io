@@ -1,0 +1,7 @@
+@inproceedings{conf/icfp/11/vardoulakis/cfa2-1st-class,
+  author    = {Dimitrios Vardoulakis and Olin Shivers},
+  title     = {{Pushdown Flow Analysis of First-Class Control}},
+  booktitle = {International Conference on Functional Programming},
+  year      = {2011},
+  pages     = {69--80}
+}

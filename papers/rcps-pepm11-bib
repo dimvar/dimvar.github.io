@@ -1,0 +1,8 @@
+@inproceedings{conf/esop/10/vardoulakis/cfa2,
+    author    = {Dimitrios Vardoulakis and Olin Shivers},
+    title     = {{Ordering Multiple Continuations on the Stack}},
+    booktitle = {Partial Evaluation and Program Manipulation},
+    year      = {2011},
+    pages     = {13--22} 
+}
+

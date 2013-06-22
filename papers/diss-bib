@@ -1,0 +1,6 @@
+@phdthesis{vardoulakis-diss12,
+  author = {Dimitrios Vardoulakis},
+  title = {{CFA2: Pushdown Flow Analysis for Higher-Order Languages}},
+  school = {Northeastern University},
+  year = {2012}
+}

@@ -1,0 +1,11 @@
+@inproceedings{conf/coord/08/vardoulakis/orc,
+  author      = {Dimitrios Vardoulakis and
+                 Mitchell Wand},
+  title       = {A Compositional Trace Semantics for Orc},
+  booktitle   = {BPESO/CSCW},
+  institution = {IT University of Copenhagen},
+  address     = {Denmark},
+  year        = {2007},
+  month       = {October}
+}
+

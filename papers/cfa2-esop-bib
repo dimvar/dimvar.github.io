@@ -1,0 +1,10 @@
+@inproceedings{conf/esop/10/vardoulakis/cfa2,
+    author    = {Dimitrios Vardoulakis and Olin Shivers},
+    title     = {{CFA2}: a {C}ontext-{F}ree {A}pproach to {C}ontrol-{F}low
+                 {A}nalysis},
+    booktitle = {European Symposium on Programming},
+    pages     = {570--589},
+    year      = {2010}
+}
+
+
