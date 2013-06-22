@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+}
+
+a:link, a:visited {
+    color: #0044CC;
+    text-decoration: none;
+}
+
+#leftcol {
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    width: 220px;
+}
+
+#contactinfo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#emailbox, .mylink {
+    font-size: small;
+}
+
+.mylink {
+    display: block;
+}
+
+#rightcol {
+    position: absolute;
+    top: 40px;
+    left: 270px;
+    width: 700px;
+}
+
+#main {
+    border: solid 1px lightgray;
+}
+
+#titlename {
+    font-size: xx-large;
+    margin-bottom: 1em;
+}
+
+#shortbio {
+    padding: 10px;
+}
+
+#rightcoltitle {
+    font-size: x-large;
+    color: gray;
+    margin-bottom: 1em;
+    background-color: lightgray;
+    padding-left: 10px;
+}
+
+.paper {
+    padding-left: 10px;
+    margin-bottom: 1em;
+}
+
+.paper .authors, .paper .info {
+    font-size: small;
+}
+
+.miscitem {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#bottom {
+    font-size: small;
+    padding: 10px;
+}
+
+#minskyquote {
+    font-style: italic;
+}

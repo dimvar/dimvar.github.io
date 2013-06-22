@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dimitris Vardoulakis - Northeastern University</title>
+    <link rel="stylesheet" href="homepage.css">
+  </head>
+  <body>
+    <span id="leftcol">
+      <img src="dimvar.jpg" height="205" width="205"/>
+
+      <div id="contactinfo">
+        <div class="leftcoltitle">Contact</div>
+        <div id="emailbox">Email:<span id="email"></span></div>
+      </div>
+
+      <div id="links">
+        <div class="leftcoltitle">Links</div>
+        <a class="mylink" href="cv.html">CV</a>
+        <a class="mylink" href="http://github.com/dimvar">GitHub</a>
+        <a class="mylink" href="https://plus.google.com/117272029222335279866">
+          Google+
+        </a>
+        <a class="mylink" href="http://twitter.com/dimvar">Twitter</a>
+        <a class="mylink" href="http://stackoverflow.com/users/308750/dimvar">
+          Stack Overflow
+        </a>
+      </div>
+    </span>
+
+    <span id="rightcol">
+      <div id="main">
+
+        <div id="shortbio">
+          <div id="titlename">Dimitris Vardoulakis</div>
+          <p>
+            I am a Software Engineer at Google, working on the 
+            <a href="https://developers.google.com/closure/compiler/">
+              Closure compiler
+            </a>
+            for JavaScript.
+          </p>
+          <p>
+            I defended my thesis in June 2012.
+            For my PhD, I developed CFA2, a new flow analysis for functional 
+            languages. CFA2 is the first flow analysis with unbounded call/return
+            matching in the presence of hard-to-analyze language features, such as
+            first-class functions, tail calls and first-class control.
+            It provides precise dataflow information and is also suitable for
+            stack-related optimizations, such as stack-allocation of closure 
+            environments.
+          </p>
+        </div>
+
+        <div id="papers">
+          <div id="rightcoltitle">Papers</div>
+          <div class="paper">
+            <div class="title">
+              CFA2: Pushdown Flow Analysis for Higher-Order Languages
+            </div>
+            <div class="authors">
+              Dimitrios Vardoulakis
+            </div>
+            <div class="info">
+              Ph.D. dissertation
+              <a href="papers/diss.pdf">[pdf]</a>
+              <a href="papers/diss-bib">[bib]</a>
+              <a href="papers/diss-errata.txt">[errata]</a>
+            </div>
+          </div>
+
+          <div class="paper">
+            <div class="title">
+              Pushdown Flow Analysis of First-Class Control
+            </div>
+            <div class="authors">
+              Dimitrios Vardoulakis and Olin Shivers
+            </div>
+            <div class="info">
+              ICFP 2011
+              <a href="papers/cfa2-1st-class.pdf">[pdf]</a>
+              <a href="papers/cfa2-1st-class-slides.pdf">[slides]</a>
+              <a href="papers/cfa2-1st-class-bib">[bib]</a>
+            </div>
+          </div>
+
+          <div class="paper">
+            <div class="title">
+              CFA2: a Context-Free Approach to Control-Flow Analysis
+            </div>
+            <div class="authors">
+              Dimitrios Vardoulakis and Olin Shivers
+            </div>
+            <div class="info">
+              Logical Methods in Computer Science, Vol. 7 (2:3), May 2011
+              <a href="http://arxiv.org/pdf/1102.3676">[pdf]</a>
+              <a href="papers/cfa2-lmcs-bib">[bib]</a>
+            </div>
+          </div>
+
+          <div class="paper">
+            <div class="title">
+              Ordering Multiple Continuations on the Stack
+            </div>
+            <div class="authors">
+              Dimitrios Vardoulakis and Olin Shivers
+            </div>
+            <div class="info">
+              PEPM 2011
+	      <a href="papers/rcps-NU-CCIS-11-01.pdf">[pdf]</a>
+              <a href="papers/rcps-pepm11-slides.pdf">[slides]</a>
+              <a href="papers/rcps-pepm11-bib">[bib]</a>
+            </div>
+          </div>
+
+          <div class="paper">
+            <div class="title">
+              CFA2: a Context-Free Approach to Control-Flow Analysis
+            </div>
+            <div class="authors">
+              Dimitrios Vardoulakis and Olin Shivers
+            </div>
+            <div class="info">
+              ESOP 2010
+              <a href="papers/cfa2-NU-CCIS-10-01.pdf">[pdf]</a>
+              <a href="papers/cfa2-esop-slides.pdf">[slides]</a>
+              <a href="papers/cfa2-esop-bib">[bib]</a>
+            </div>
+          </div>
+
+          <div class="paper">
+            <div class="title">
+              A compositional trace semantics for Orc
+            </div>
+            <div class="authors">
+              Dimitrios Vardoulakis and Mitchell Wand
+            </div>
+            <div class="info">
+              COORDINATION 2008
+              <a href="papers/orc-coord.pdf">[pdf]</a>
+	      <a href="papers/orc-coord-slides.pdf">[slides]</a>
+	      <a href="papers/orc-coord-bib">[bib]</a>
+            </div>
+          </div>
+
+          <div class="paper">
+            <div class="title">
+              A compositional trace semantics for Orc (short version)
+            </div>
+            <div class="authors">
+              Dimitrios Vardoulakis and Mitchell Wand
+            </div>
+            <div class="info">
+              BPESO/CSCW 2007
+              <a href="papers/orc-bpeso.pdf">[pdf]</a>
+              <a href="papers/orc-bpeso-slides.pdf">[slides]</a>
+	      <a href="papers/orc-bpeso-bib">[bib]</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="misc">
+          <div id="rightcoltitle">Misc</div>
+          <div class="miscitem">
+            <a href="http://research.microsoft.com/apps/video/dl.aspx?id=151000&l=i">
+              Invited talk at Microsoft Research, Redmond
+            </a>
+          </div>
+          <div class="miscitem">
+            <a href="http://brendaneich.com/2010/08/static-analysis-ftw">
+              Brendan Eich on DoctorJS
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="bottom">
+        <div id="minskyquote">
+          Our cultural heritage promotes helplessness about gifts, talents and
+          aptitudes. It encourages "I'm not good at this" instead of "How can I
+          make myself better at it?"
+        </div>
+        <div>
+          From Marvin Minsky's Turing Award lecture.
+        </div>
+      </div>
+    </span>
+
+    <script type="text/javascript" src="homepage.js"></script>
+    <!-- start of google analytics code -->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ?
+                      "https://ssl." : "http://www.");
+       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+       try {
+         var pageTracker = _gat._getTracker("UA-9268577-1");
+         pageTracker._trackPageview();
+       }
+       catch(err) {}
+    </script>
+    <!-- end of google analytics code -->
+  </body>
+</html>

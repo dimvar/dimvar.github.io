@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    width: 1100px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+#title {
+    font-size: xx-large;
+    border-bottom-style: solid;
+}
+
+.row {
+    width: 100%;
+    clear: both;
+    padding-top: 1em;
+}
+
+.row .title {
+    font-size: large;
+    float: left;
+    width: 15%;
+}
+
+.row .info {
+    float: right;
+    width: 82%;
+}
+
+.row .info .left {
+    float: left;
+    width: 76%;
+    clear: left;
+    margin-bottom: 1em;
+}
+
+.row .info .right {
+    text-align: right;
+    width: 22%;
+    float: right;
+}
+
+.papertitle {
+    font-style: italic;
+}
