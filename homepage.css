@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a:link, a:visited {
@@ -8,30 +10,15 @@ a:link, a:visited {
 }
 
 #leftcol {
-    position: fixed;
-    top: 40px;
-    left: 50px;
-    width: 220px;
-}
-
-#contactinfo {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-#emailbox, .mylink {
-    font-size: small;
-}
-
-.mylink {
-    display: block;
+    display: none;
 }
 
 #rightcol {
-    position: absolute;
-    top: 40px;
-    left: 270px;
-    width: 700px;
+    display: block;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 16px;
+    box-sizing: border-box;
 }
 
 #main {
